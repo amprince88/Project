@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Project</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <img src="./images/Logo.jpg" alt="logo" class="logo"
+        width="222" height="222">
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="./gallery/images.html">Gallery</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="./contact/contactform.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<h1>
+    <strong>
+        <em>
+        Pixy's Pawsitively Purfect Pet Services
+        </em>
+    </strong>
+</h1>
+<h2>
+    About The Owner
+</h2>
+<h3>
+    Jennifer <em>"Pixy"</em> Baker 
+</h3>
+<p>Reliable animal care worker who has 
+   experience providing support services 
+   for animals in a range of settings. 
+   Capable of administering 
+   medications, feeding, watering and 
+   bathing animals and exercising both 
+   large and small animals. Passionate 
+   about the well-being of all animals in 
+   their care. Takes pride in learning and 
+   mastering new concepts and skills.
+</p>
+<ol>
+    <li>Compassionate</li>
+    <li>Trustworthy</li>
+    <li>Hard Working</li>
+    <li>
+        Dependable
+        <ul>
+            <li>Reliable</li>
+            <li>Cheerful</li>
+            <li>Kind</li>
+            <li>Gracious</li>
+        </ul>
+    </li>
+</ol>
+<h4><strong>CONTACT</strong></h4>
+<form action="#" method="get">
+    <div class="form-row">
+        <label for="first-name">
+            First Name:
+            <input type="text" name="first-name" id="first-name">
+        </label>
+    </div>
+    <div class="form-row">
+        <label for="last-name">
+            Last Name:
+            <input type="text" name="last-name" id="last-name">
+        </label>
+    </div>
+    <div class="form-row">
+        <label for="Email">
+            Email:
+            <input type="text" name="Email" id="Email">
+        </label>
+    </div>
+    <div class="form-row">
+        <label for="tel">
+            Phone Number:
+            <input type="tel" name="Phone" id="tel" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </label>
+    </div>
+    <div class="form-row">
+        <label>
+            Type of Pet:
+            <select name="Type">
+                <option value="Choose One">Choose One</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="reptile">Reptile</option>
+                <option value="bird">Bird</option>
+                <option value="amphibian">Amphibian</option>
+                <option value="rodent">Rodent</option>
+                <option value="aquatic">Aquatic</option>
+                <option value="other/not listed">Other/Not Listed</option>
+                <option value="multiple">Multiple</option>
+            </select>
+        </label>
+    </div>
+    <div class="form-row">
+        <fieldset>
+            <legend>Best Time to Contact</legend>
+            <label>
+                <input type="radio" name="Best Time to Contact" value="Morning"> Morning
+            </label>
+            <label>
+                <input type="radio" name="Best Time to Contact" value="Afternoon"> Afternoon
+            </label>
+            <label>
+                <input type="radio" name="Best Time to Contact" value="Evening"> Evening
+            </label>
+        </fieldset>
+    </div>
+    <div class="form-row">
+        <fieldset>
+            <legend>Best Form of Contact</legend>
+            <label>
+                <input type="checkbox" name="best form of contact" value="Phone Call"> Phone Call
+            </label>
+            <label>
+                <input type="checkbox" name="best form of contact" value="Text Message"> Text Message
+            </label>
+            <label>
+                <input type="checkbox" name="best form of contact" value="Email"> Email
+            </label>
+        </fieldset>
+    </div>
+    <div class="form-row">
+        <label>
+            Urgency of Request (0 <em>Low</em> to 10 <em>High</em>)
+            <input type="range" 
+            class="js-urgency" 
+            min="0" 
+            max="10" 
+            name="Urgency of Request" 
+            value="0">
+        </label>
+        <label>
+            <input type="text" class="js-urgency-value" disabled value="0">
+        </label>
+    </div>
+    <div class="form-row">
+        <Label for="message">
+            Message:
+        <br>
+        <textarea name="message" cols="30" rows="10" id="message"></textarea>
+        </Label>
+    </div>
+    <div class="form-row">
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</form>
+<h5><strong><em>GALLERY</em></strong></h5>
+<img src="./images/BabySalem.jpg" alt="small black kitten" width="250" height="350">
+<img src="./images/BoxoKittens.jpg" alt="tiny kittens in a box" width="400" height="300">
+<img src="./images/CocotheBattyGirl.jpg" alt="big eared dog" width="200" height="350">
+<img src="./images/CowboyBrutus.jpg" alt="old cowboy dog" width="200" height="400">
+<img src="./images/CrazyKat.jpg" alt="judgy fluff ball" width="250" height="450">
+<img src="./images/DadJokeSlidder.jpg" alt="husky telling jokes" width="250" height="400">
+<img src="./images/EscapedKitten.jpg" alt="kitten on the run" width="250" height="400">
+<img src="./images/FigGram.jpg" alt="brothers" width="250" height="400">
+<img src="./images/FredoFrenchie.jpg" alt="frenchie dog" width="250" height="400">
+<img src="./images/GramFig.jpg" alt="brothers" width="250" height="400">
+<img src="./images/GramFighunting.jpg" alt="brothers on leashes" width="200" height="400">
+<img src="./images/GrumperstiltskinCosmo.jpg" alt="cosmo" width="250" height="400">
+<img src="./images/HoochyHooch.jpg" alt="Hooch" width="250" height="400">
+<img src="./images/Jedi.jpg" alt="diabetic black cat" width="350" height="275">
+<img src="./images/LoudLeanna.jpg" alt="stretchy cat" width="250" height="450">
+<img src="./images/LucaandAmmotheWeens.jpg" alt="weens" width="250" height="400">
+<img src="./images/Nala.jpg" alt="chilling window cat" width="275" height="400">
+<img src="./images/Noodle.jpg" alt="spicy spaghetti snake" width="350" height="350">
+<img src="./images/Penny.jpg" alt="pretty penny princess"
+width="350" height="450">
+<img src="./images/Pharoah.jpg" alt="ginger cat" width="250" height="250">
+<img src="./images/PrincessRiley.jpg" alt="riley doodle" width="250" height="450">
+<img src="./images/RegalRussell.jpg" alt="golden russell" width="250" height="400">
+<img src="./images/SmilingRiley.jpg" alt="sweet riley" width="250" height="400">
+<img src="./images/SnawningCosmo.jpg" alt="yawning cosmo" width="250" height="400">
+<img src="./images/SnoopyDoop.jpg" alt="snoopy girl" width="250" height="450">
+<img src="./images/StylinSlidder.jpg" alt="husky in sunglasses" width="250" height="450">
+<img src="./images/SummerandSweets.jpg" alt="tiny and fluffy" width="250" height="450">
+<img src="./images/TurnerandHooch.jpg" alt="gremlin and hooch" width="250" height="450">
+<img src="./images/Tyson.jpg" alt="big head" width="250" height="450">
+<img src="./images/UpsideDownPippin.jpg" alt="rolling corgi" width="250" height="450">
+<img src="./images/YawningSalem.jpg" alt="yawning black cat" width="300" height="250">
+<video 
+src="./images/CuddlyCatTime.mp4"
+height="300"
+controls
+muted>
+</video>
+<video 
+src="./images/WiggleButtMaGee.mp4"
+height="350"
+controls
+muted>
+</video>
+<footer>
+    <h6><strong><em>Welcome to Our Family</em></strong></h6>
+</footer>
+  <script>
+  
+function updateurgency() {
+    const newValue = document.querySelector('.js-urgency').value;
+    document.querySelector('.js-urgency-value').value = newValue
+
+  document.querySelector('.js-urgency').addEventListener('change', updateurgency);
+}
+  </script>
+  <style>
+    body {
+    margin: 0;
+    font-weight: 300;
+}
+
+container {
+    width: 90%
+    margin: 0 auto;
+}
+
+header {
+    background: #ffffff;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+logo {
+float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 111px;
+    padding-top: 200px;
+
+    position: relative;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+
+    position: absolute;
+    top: 188px;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+h1 {
+    font-size: 66px;
+}
+h5 {
+    font-size: 44px;
+}
+
+h4 {
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+header {
+    background-color: darkgray;
+}
+
+body {
+    padding-left: 10px;
+}
+
+body {
+    padding-top: 10px;
+}
+
+body {
+    padding-right: 10px;
+}
+
+body {
+    padding-bottom: 10px;
+}
+
+h6 {
+    font-size: 66px;
+}
+  </style>
+
+</body>
+</html>
