@@ -202,14 +202,14 @@ muted>
 <footer>
     <h6><strong><em>Welcome to Our Family</em></strong></h6>
 </footer>
-  <script>
-  
+  <script>  
+
 function updateurgency() {
     const newValue = document.querySelector('.js-urgency').value;
     document.querySelector('.js-urgency-value').value = newValue
-
-  document.querySelector('.js-urgency').addEventListener('change', updateurgency);
 }
+
+document.querySelector('.js-urgency').addEventListener('change', updateurgency);
   </script>
   <style>
     body {
